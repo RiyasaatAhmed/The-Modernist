@@ -1,0 +1,152 @@
+/* nav-bar */
+
+.container
+{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.logo
+{
+    margin-bottom: 20px;
+
+}
+.nav-container
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown:hover ul li
+{
+    padding: 10px 30px;
+}
+
+.dropdown:hover ul li:first-child
+{
+    margin-top: 10px;
+}
+.menu > li
+{
+    margin: 0px;
+}
+
+
+/* Showcase */
+
+.showcase-logo .layout
+{
+    align-items: center;
+}
+
+.layout h1
+{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.layout .btn-secondary
+{
+    font-size: 10px;
+}
+
+/* service */
+
+.service-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.service img
+{
+    width: 200px;
+    height: 200px;
+}
+
+/* Works */
+.work-container
+{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+#works h1
+{
+    font-size: 24px;
+}
+
+.work p
+{
+    font-size: 10px;
+}
+
+/* Footer */
+
+.upper-footer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+
+}
+
+
+.blog h1, 
+.blog h3
+{
+    text-align: left;
+}
+.blog
+{
+    text-align: center;
+}
+
+.link-list ul li a
+{
+    padding-left: 10px;
+}
+
+.latest-tweets p
+{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 80vw;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contact-us input,
+.contact-us textarea
+{
+    border-radius: 0;
+    width: 80vw;
+}
+
+.contact-us input[type="submit"]
+{
+    width: 20%;
+}
+
+.lower-footer-content
+{
+    font-size: 8px;
+    justify-content: space-around;
+
+}
