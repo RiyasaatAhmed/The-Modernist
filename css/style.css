@@ -276,6 +276,8 @@ p
     display: grid;
     grid-template-rows: 4fr 1fr;
     transition: all var(--transition-speed) ease-in-out;
+    overflow: hidden;
+
 
 
 }
